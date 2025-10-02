@@ -13,9 +13,9 @@ import MusicPlayer from "@/components/MusicPlayer"
 import Proposal from "@/components/Proposal"
 
 // Change this to your anniversary date
-const ANNIVERSARY_DATE = "2025-10-03"
+const ANNIVERSARY_DATE = "2025-10-03 00:00:00"
 // Change this to the date you got together
-const TOGETHER_DATE = "2025-04-03"
+const TOGETHER_DATE = "2025-04-03 00:00:00"
 
 export default function Home() {
   const [loading, setLoading] = useState(true)
